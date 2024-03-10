@@ -7,27 +7,40 @@
   <style>
     body {
       font-family: 'Roboto', sans-serif;
-      padding-left: 20px; /* Add space on the left */
+      padding-left: 40px;
     }
-    img {
+    .image-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .image-item {
       width: 300px;
       margin: 10px;
+    }
+    .image-item img {
+      width: 100%;
       transition: opacity 0.3s ease;
     }
-    img:hover {
+    .image-item img:hover {
       opacity: 0.7;
     }
   </style>
 </head>
 <body>
   <h1>Niklas Murken</h1>
-  <a href="https://bobotovkuk.github.io/webpage/gallery1.html">
-    <img src="images/photo1.jpg" alt="Image 1">
-  </a>
-  <p>Senegal 2023.</p>
-  <a href="https://bobotovkuk.github.io/webpage/gallery2.html">
-    <img src="images/photo2.jpg" alt="Image 2">
-  </a>
-  <p>Senegal 2024.</p>
+  <div class="image-container">
+    <div class="image-item">
+      <a href="https://bobotovkuk.github.io/webpage/gallery1.html">
+        <img src="images/photo1.jpg" alt="Image 1">
+      </a>
+      <p>Senegal 2023.</p>
+    </div>
+    <div class="image-item">
+      <a href="https://bobotovkuk.github.io/webpage/gallery2.html">
+        <img src="images/photo2.jpg" alt="Image 2">
+      </a>
+      <p>Senegal 2024.</p>
+    </div>
+  </div>
 </body>
 </html>
