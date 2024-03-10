@@ -1,28 +1,22 @@
 body {
-    font-family: 'Roboto Condensed', sans-serif;
-    padding: 80px 40px 40px 80px; /* Increase top and left padding */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    margin: 0 0 0 5px; /* Add left margin */
-    font-weight: 300; /* Lighter font weight */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
 
-.image-container {
-    display: flex;
-    justify-content: space-between;
+.photo {
+    text-align: center;
+    margin: 20px;
 }
 
-.image-item {
-    width: 300px;
-    margin: 5px;
-}
-
-.image-item img {
-    width: 100%;
-    transition: opacity 0.3s ease;
-}
-
-.image-item img:hover {
-    opacity: 0.7;
+img {
+    max-width: 100%;
+    height: auto;
 }
